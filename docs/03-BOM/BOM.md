@@ -6,7 +6,8 @@ tags:
 ---
 
 ## Overview
-written context
+The overall bill of materials.
+The total comes out to $11.67.
 
 ## Bill of Materials Example (as Table)
 
@@ -15,7 +16,7 @@ written context
 | **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Schematic Reference Designators** |
 |:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
 THROUGH-HOLE RESISTORS - 100 OHM  | 1 | $0.75 | $0.75 | Adafruit Industries LLC | 4293  | [DigiKey](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4293/10287036) | [datasheet link](https://cdn-shop.adafruit.com/product-files/2780/Resistor_Data_Sheet.pdf) | R1 |
-THROUGH-HOLE RESISTORS - 220 OHM  | 1 | $0.75 | $0.75 | Adafruit Industries LLC | 2780  | [DigiKey](https://www.digikey.com/en/products/detail/adafruit-industries-llc/2780/26744056) | [datasheet link](https://cdn-shop.adafruit.com/product-files/2780/Resistor_Data_Sheet.pdf) | R2, R3 |
+THROUGH-HOLE RESISTORS - 220 OHM  | 2 | $0.75 | $1.50 | Adafruit Industries LLC | 2780  | [DigiKey](https://www.digikey.com/en/products/detail/adafruit-industries-llc/2780/26744056) | [datasheet link](https://cdn-shop.adafruit.com/product-files/2780/Resistor_Data_Sheet.pdf) | R2, R3 |
 THROUGH-HOLE RESISTORS - 10k OHM  | 1 | $0.75 | $0.75 | Adafruit Industries LLC | 2784  | [DigiKey](https://www.digikey.com/en/products/detail/adafruit-industries-llc/2784/26744575) | [datasheet link](https://cdn-shop.adafruit.com/product-files/2780/Resistor_Data_Sheet.pdf) | R4 |
 0.1 µF ±10% 50V Ceramic Capacitor X7R Radial | 1 | $0.30 | $0.30 | KEMET | C320C104K5R5TA | [DigiKey](https://www.digikey.com/en/products/detail/kemet/C320C104K5R5TA/818040) | [datasheet link](https://content.kemet.com/datasheets/KEM_C1050_GOLDMAX_X7R.pdf) | C1 |
 0.33 µF ±10% 50V Ceramic Capacitor X7R Radial | 1 | $0.36 | $0.36 | TDK Corporation | FA24X7R1H334KNU06 | [DigiKey](https://www.digikey.com/en/products/detail/tdk-corporation/FA24X7R1H334KNU06/5866154) | [datasheet](https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/lead-mlcc/catalog/leadmlcc_halogenfree_fa_en.pdf) | C2 |
