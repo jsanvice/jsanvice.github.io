@@ -9,9 +9,7 @@ tags:
 The overall bill of materials.
 The total comes out to $11.67.
 
-## Bill of Materials Example (as Table)
-
-*Table ##: An example of one approach to adding your BOM table to this section.*
+## Bill of Materials (as Table)
 
 | **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Schematic Reference Designators** |
 |:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|

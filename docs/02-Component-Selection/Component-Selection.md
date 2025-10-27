@@ -1,12 +1,10 @@
 ---
 title: Component Selection
+
 tags:
 - tag1
--tag2
+- tag2
 ---
-> This is the example found in the assignment, uses more html
-
-
 
 ## MOSFET
 
