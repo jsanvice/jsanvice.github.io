@@ -12,4 +12,4 @@ This schematic is designed to recieve a signal from a connected light sensor and
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](subsystem.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
+The schematic as a PDF download is available [*here*](subsystem.pdf), and the Zip folder of the project [*here*](subsystem.zip).
