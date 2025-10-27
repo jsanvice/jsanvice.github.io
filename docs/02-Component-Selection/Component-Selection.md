@@ -10,49 +10,14 @@ title: Component Selection Example
 
 *Table 1: Example component selection*
 
-**External Clock Module**
+**MOSFET**
 
-| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](image1.png)<br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-| ![](image3.png)<br>\* Option 2. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
+| **Solution**                                                                                                                                                                                                                                                         | **Pros**                                                                             | **Cons**                                                                                            |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| -------------------------------------------------------------------------------------| --------------------------------------------------------------------------------------------------- |
+| ![](T2N7002AKLMDKR-ND.png)<br>Option 1.<br> N-Channel 60 V 200mA (Ta) 320mW (Ta) Surface Mount SOT-23-3<br>$0.13/each<br>[link to product](https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/T2N7002AK-LM/5298028)                        | \* Inexpensive[^1]<br>\* Low profile                                                 | \* Less durable due to surface mount                                                                |
+| ![](2N7002-FDIDKR-ND.png)<br>\* Option 2. <br>\* N-Channel 60 V 115mA (Ta) 370mW (Ta) Surface Mount SOT-23-3 <br>\* $0.14/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/diodes-incorporated/2N7002-7-F/717681)                            | \* Inexpensive <br>\* Shorter shipping time                                          | * Less durable due to surface mount <br>\* Slow shipping speed                                      |
+| ![](785-1442-5-ND.png)<br>\* Option 3. <br>\* N-Channel 60 V 7A (Ta), 22A (Tc) 2.1W (Ta), 23.5W (Tc) Through Hole TO-220F <br>\* $1.66/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AOTF2618L/3603382)     | \* More durable through-hole connector <br>\* Larger operating temperature threshold | * More expensive                                                                                     
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+**Choice:** Option 3: N-Channel 60 V 7A (Ta), 22A (Tc) 2.1W (Ta), 23.5W (Tc) Through Hole TO-220F
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
-
-### Style 2
-
-> Also acceptable, more markdown friendly
-
-**External Clock Module**
-
-1. XC1259TR-ND surface mount crystal
-
-    ![](image1.png)
-
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
-
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
-
-1. CTX936TR-ND surface mount oscillator
-
-    ![](image3.png)
-
-    * $1/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
-
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    | Outputs a square wave                                             | More expensive      |
-    | Stable over operating temperature                                 | Slow shipping speed |
-    | Direct interface with PSoC (no external circuitry required) range |
-
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
-
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+**Rationale:** Through-hole connectors are easier to work with and are more durable than surface mounts.
