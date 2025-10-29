@@ -7,7 +7,7 @@ tags:
 <center>
 <font size= "6">Jon San Vicente Datasheet</font><br>
 as part of<br>
-<font size= "8"> Project Name</font><br>
+<font size= "8">Automatic Plant Care System</font><br>
 for<br>
 <font size= "5"> Team 106 </font><br>
 
@@ -16,11 +16,11 @@ for<br>
 
 ## Introduction
 
-This datasheet outlines the specifics of the circuit operating the grow light system for the Plant Lighting and Watering System.
+This datasheet outlines the specifics of the circuit operating the grow light system for the Automatic Plant Care System.
 
 ### Project Summary
 
-The Plant Lighting and Watering System designed by team 106 will automatically maintain optimal light and water levels for plant growth.
+The Automatic Plant Care System designed by team 106 will automatically maintain optimal light and water levels for plant growth.
 
 
 ### My Contribution
@@ -34,3 +34,5 @@ This page specifically discusses the circuit operating the grow light. for infor
 [Bill of Materials (BOM)](https://jsanvice.github.io/03-BOM/BOM/) This page lists the number of components and respective costs as well as the total cost of  components.
 
 [Schematic](https://jsanvice.github.io/04-Schematic/schematic/) This page details the schematic for the grow light system and has a copy of the respective project files available for download.
+
+[Power Budget](https://jsanvice.github.io/05-Power-Budget/Power-Budget/) This page leads to a spreadsheet outlining the power budget for the circuit.
