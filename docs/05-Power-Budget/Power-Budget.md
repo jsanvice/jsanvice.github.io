@@ -7,7 +7,7 @@ This power budget outlines the power usage across the circuit and aims to make s
 
 ![budget1](PowerBudget1.png){style width:"350" height:"300;"}
 
-![budget2](PowerBudgert2.png){style width:"350" height:"300;"}
+![budget2](PowerBudger2.png){style width:"350" height:"300;"}
 
 ## Conclusions
 
