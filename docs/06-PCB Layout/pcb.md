@@ -6,7 +6,7 @@ title: PCB Layout
 
 PCB Layout
 
-![PCB](Schematic.png){style width:"350" height:"300;"}
+![PCB](PCB.png){style width:"350" height:"300;"}
 
 
 ## Resouces
