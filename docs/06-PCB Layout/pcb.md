@@ -4,6 +4,8 @@ title: PCB Layout
 
 ## Overview
 
+PCB Layout
+
 ![PCB](Schematic.png){style width:"350" height:"300;"}
 
 
