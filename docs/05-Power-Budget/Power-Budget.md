@@ -5,9 +5,9 @@ title: Power Budget
 ## Overview
 This power budget outlines the power usage across the circuit and aims to make sure the circuit has enough to operate.
 
-![budget1](PowerBudget1.png){style width:"350" height:"300;"}
+![budget1](Budget1.png){style width:"350" height:"300;"}
 
-![budget2](PowerBudget2.png){style width:"350" height:"300;"}
+![budget2](Budget2.png){style width:"350" height:"300;"}
 
 ## Conclusions
 
